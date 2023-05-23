@@ -116,7 +116,6 @@ public class perpustakaan extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -135,16 +134,13 @@ public class perpustakaan extends javax.swing.JFrame {
         btnedit = new javax.swing.JButton();
         btnhapus = new javax.swing.JButton();
         waktuLabel = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("aplikasi perpustakaan");
         setBackground(new java.awt.Color(153, 153, 0));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 102, 102));
-        jLabel1.setText("DATA PERPUSTAKAAN");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 40, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("ID buku");
@@ -256,6 +252,15 @@ public class perpustakaan extends javax.swing.JFrame {
         waktuLabel.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         waktuLabel.setText("Time");
         getContentPane().add(waktuLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 480, -1, -1));
+
+        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel7.setText("DATA PERPUSTAKAAN");
+        jPanel1.add(jLabel7);
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 740, 50));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -388,12 +393,13 @@ public class perpustakaan extends javax.swing.JFrame {
     private javax.swing.JButton btnkosongkan;
     private javax.swing.JButton btnsimpan;
     private javax.swing.JComboBox<String> cbgenre;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tabelbuku;
     private javax.swing.JTextField txtid;
